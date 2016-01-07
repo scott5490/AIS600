@@ -8,11 +8,11 @@ A good amount of the information was obtained from this Captain Unlikely here: h
 
 SETUP
 ---------
-Setup is simple. Plug a USB cable into the AIS600 and 
+Setup is simple. Plug a USB cable into the AIS600. 
 
 READING THE AIS600
 --------
-Viewing the information from the AIS600 is easy. Especially if you have a newer (2012+ I think) mac that comes with XXX drivers installed. Execute the following command:
+Viewing the information from the AIS600 is easy. Especially if you have a newer (2012+ I think) mac that comes with FTDI drivers installed. Execute the following command:
 
 `ls -l /dev/tty.*`
 
