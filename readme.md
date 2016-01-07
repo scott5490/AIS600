@@ -44,9 +44,9 @@ Next we’ll construct the NMEA sentence to program the unit. I’m not sure wha
 "$PGRM,DEBUG,ADC,1*02\r\n"
 "$PGRM,DEBUG,LED,1*09\r\n"
 "$PGRM,SET,GPSCONF,2,1,3*16\r\n"
-"$PGRM,SET,MMSI,XXXXXXXX*49\r\n"
+**"$PGRM,SET,MMSI,XXXXXXXX*49\r\n"**
 "$PGRM,GET,MMSI*44\r\n"
-"$AISSD,CCCC,NNNN,AA,BB,CC,DD,0,AI*2C\r\n"
+**"$AISSD,CCCC,NNNN,AA,BB,CC,DD,0,AI*2C\r\n"**
 "$AIAIQ,SSD*39\r\n"
 "$AIVSD,36,,,,,,,,*60\r\n"
 "$DUAIQ,VSD*25\r\n"
@@ -55,7 +55,7 @@ Next we’ll construct the NMEA sentence to program the unit. I’m not sure wha
 
 The sentence `“$AIVSD,36,,,,,,,,*60\r\n"` programs the AIS600 for a sailing vessel. I’m not sure what the other options are.
 
-The two sentences highlighted are the sentences that you will need to update with your own information.
+The two sentences in bold are the sentences that you will need to update with your own information.
 
 ```
 XXXXXXXX=MMSI Number
