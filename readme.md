@@ -36,12 +36,9 @@ NMEA SENTENCES
 --------
 Next we’ll construct the NMEA sentence to program the unit. I’m not sure what’s required, because programming the unit is a one shot deal. So these are the sentences I used:
 
-`"$PGRM,GET,MMSI*44\r\n"
-
+```"$PGRM,GET,MMSI*44\r\n"
 "$AIAIQ,SSD*39\r\n"
-
 "$DUAIQ,VSD*25\r\n"
-
 "$PGRM,GET,MMSI*44\r\n"
 "$AIAIQ,VER*3C\r\n"
 "$PGRM,DEBUG,ADC,1*02\r\n"
@@ -53,13 +50,13 @@ Next we’ll construct the NMEA sentence to program the unit. I’m not sure wha
 "$AIAIQ,SSD*39\r\n"
 "$AIVSD,36,,,,,,,,*60\r\n"
 "$DUAIQ,VSD*25\r\n"
-"$PGRM,SET,GPSCONF,2,1,1*14\r\n"`
+"$PGRM,SET,GPSCONF,2,1,1*14\r\n"```
 
 The sentence `“$AIVSD,36,,,,,,,,*60\r\n"` programs the AIS600 for a sailing vessel. I’m not sure what the other options are.
 
 The two sentences highlighted are the sentences that you will need to update with your own information.
 
-`
+```
 XXXXXXXX=MMSI Number
 CCCC=Callsign
 NNNN=Vessel Name
@@ -67,7 +64,7 @@ AA=AIS Unit distance from bow
 BB=AIS Unit distance from stern
 CC=AIS Unit distance from port
 DD=AIS Unit distance from starboard
-`
+```
 
 CHECKSUM
 --------
