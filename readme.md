@@ -37,8 +37,11 @@ NMEA SENTENCES
 Next we’ll construct the NMEA sentence to program the unit. I’m not sure what’s required, because programming the unit is a one shot deal. So these are the sentences I used:
 
 `"$PGRM,GET,MMSI*44\r\n"
+
 "$AIAIQ,SSD*39\r\n"
+
 "$DUAIQ,VSD*25\r\n"
+
 "$PGRM,GET,MMSI*44\r\n"
 "$AIAIQ,VER*3C\r\n"
 "$PGRM,DEBUG,ADC,1*02\r\n"
