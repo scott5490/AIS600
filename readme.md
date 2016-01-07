@@ -44,9 +44,9 @@ Next we’ll construct the NMEA sentence to program the unit. I’m not sure wha
 "$PGRM,DEBUG,ADC,1*02\r\n"
 "$PGRM,DEBUG,LED,1*09\r\n"
 "$PGRM,SET,GPSCONF,2,1,3*16\r\n"
-**"$PGRM,SET,MMSI,XXXXXXXX*49\r\n"**
+"$PGRM,SET,MMSI,XXXXXXXX*49\r\n"
 "$PGRM,GET,MMSI*44\r\n"
-**"$AISSD,CCCC,NNNN,AA,BB,CC,DD,0,AI*2C\r\n"**
+"$AISSD,CCCC,NNNN,AA,BB,CC,DD,0,AI*2C\r\n"
 "$AIAIQ,SSD*39\r\n"
 "$AIVSD,36,,,,,,,,*60\r\n"
 "$DUAIQ,VSD*25\r\n"
