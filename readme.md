@@ -50,7 +50,8 @@ Next we’ll construct the NMEA sentence to program the unit. I’m not sure wha
 "$AIAIQ,SSD*39\r\n"
 "$AIVSD,36,,,,,,,,*60\r\n"
 "$DUAIQ,VSD*25\r\n"
-"$PGRM,SET,GPSCONF,2,1,1*14\r\n"```
+"$PGRM,SET,GPSCONF,2,1,1*14\r\n"
+```
 
 The sentence `“$AIVSD,36,,,,,,,,*60\r\n"` programs the AIS600 for a sailing vessel. I’m not sure what the other options are.
 
